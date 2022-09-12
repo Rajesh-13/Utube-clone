@@ -5,7 +5,8 @@ import { demoProfilePicture, demoChannelTitle } from '../Utils/constants'
 import { Box } from '@mui/material'
 
 function ChannelCard({ channelDetail,source,marginTop }) {
-    console.log("In ChannelCard",source,channelDetail)
+    // console.log("In ChannelCard",source,channelDetail)
+    console.log("In ChannelCard")
     return (
         <Box sx={{ width: { md: '320px', xs: '356px' },margin:'auto',height:'326px' ,boxShadow: 'none', borderRadius: '0', display:'flex',justifyContent:'center',alignItems:'center',marginTop }}>
             <Link to={`/channel/${channelDetail?.snippet?.channelId}`}>

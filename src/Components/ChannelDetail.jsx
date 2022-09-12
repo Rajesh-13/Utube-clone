@@ -13,7 +13,7 @@ function ChannelDetail() {
   const [videos, setVideos] = useState([])
 
 
-  console.log("In channelDetail",channelDetail)
+  console.log("In channelDetail")
 
   useEffect(() => {
     FetchFromAPI(`channels?part=snippet&id=${id}`)
