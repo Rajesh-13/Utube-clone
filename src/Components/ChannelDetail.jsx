@@ -39,7 +39,6 @@ function ChannelDetail() {
         <ChannelCard channelDetail={channelDetail} source = "Comming from ChannelDetails" marginTop='-110px'/>
       </Box>
       <Box display='flex' p ="2">
-        <Box sx ={{mr:{sm:'100px'},color:'white'}}>REMOVE THIS</Box>
           <Videos videos = {videos} />
       </Box>
     </Box>
